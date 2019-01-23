@@ -6,16 +6,15 @@
     <!-- Sign In -->
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="signin_email">회원가입 및 이메일 로그인</string>
-    <string name="signin_google">Google으로 로그인</string>
-    <string name="signin_facebook">Facebook으로 로그인</string>
-    <string name="signin_twitter">Twitter으로 로그인</string>
-    <string name="signup_complete">회원가입 성공</string>
-    <string name="signin_complete">로그인 성공</string>
-    <string name="signout">로그아웃</string>
-    <string name="signout_success">로그아웃 성공</string>
-    <string name="signout_fail">로그아웃 실패</string>
-    <string name="signout_fail_null">이메일과 비밀번호를 입력해주세요</string>
+    <string name="signin_email">Signup or Signin by email</string>
+    <string name="signin_google">Google login</string>
+    <string name="signin_facebook">Facebook login</string>
+    <string name="signup_complete">Membership success</string>
+    <string name="signin_complete">Login success</string>
+    <string name="signout">Signout</string>
+    <string name="signout_success">Signout success</string>
+    <string name="signout_fail">Signout fail</string>
+    <string name="signout_fail_null">Please enter your email and password</string>
 
     <!-- Bottom Navigation View -->
     <string name="home">home</string>
@@ -25,33 +24,32 @@
     <string name="account">Account</string>
 
     <!-- Account -->
-    <string name="post">게시물</string>
-    <string name="following">팔로잉</string>
-    <string name="follower">팔로워</string>
-    <string name="follow">팔로우</string>
-    <string name="follow_cancel">팔로우 취소</string>
+    <string name="post">Post</string>
+    <string name="following">Following</string>
+    <string name="follower">Follower</string>
+    <string name="follow">Follow</string>
+    <string name="follow_cancel">Follow cancel</string>
     <string name="profile">Profile</string>
     <string name="count_0">0</string>
 
     <!-- Alarm -->
-    <string name="alarm_favorite">님이 좋아요를 눌렀습니다.</string>
-    <string name="alarm_who">님이&#160;</string>
-    <string name="alarm_comment">&#160;메세지를 남겼습니다.</string>
-    <string name="alarm_follow">님이 당신의 계정을 팔로워하기 시작했습니다.</string>
+    <string name="alarm_favorite">Liked the press</string>
+    <string name="alarm_comment">left a message</string>
+    <string name="alarm_follow">has started to follow your account</string>
 
     <!-- Comment -->
-    <string name="send">보내기</string>
+    <string name="send">Send</string>
 
     <!-- Add Photo -->
-    <string name="upload_image">사진 올리기</string>
-    <string name="hint_image_content">내용</string>
-    <string name="upload_success">업로드 성공</string>
-    <string name="upload_fail">업로드 실패</string>
+    <string name="upload_image">Photo Upload</string>
+    <string name="hint_image_content">Image description</string>
+    <string name="upload_success">Upload success</string>
+    <string name="upload_fail">Upload fail</string>
 
     <!-- Toolbar -->
     <string name="back">Back</string>
 
     <!-- etc -->
-    <item name="visible" type="id" />
-    <item name="masked" type="id" />
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
 </resources>
