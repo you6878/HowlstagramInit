@@ -2,6 +2,7 @@ import android.graphics.*
 import android.media.Image
 import java.io.ByteArrayOutputStream
 
+//실시간 카메라 버퍼 -> Bitmap 이미지
 fun Image.toBitmap(quality: Int): Bitmap {
     val yBuffer = planes[0].buffer // Y
     val uBuffer = planes[1].buffer // U
@@ -25,6 +26,7 @@ fun Image.toBitmap(quality: Int): Bitmap {
     return BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.size)
 }
 
+//비트맵 이미지를 각도를 바꿔주는 부분
 fun Bitmap.rotateWithReverse(degrees: Float): Bitmap {
     val matrix = Matrix().apply { postRotate(degrees) }
     var bitmap = Bitmap.createBitmap(this, 0, 0, width, height, matrix, true)
